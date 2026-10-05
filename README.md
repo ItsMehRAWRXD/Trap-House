@@ -2,6 +2,26 @@
 
 Where the RawrXD IDE strangeness goes.
 
+```ini
+REPOSITORY_ROLE=CURATED_RECOVERY
+SOURCE_OF_TRUTH=0
+BUILD_AUTHORITY=0
+HISTORICAL_SALVAGE=1
+CANONICAL_CODE=NO
+COMPLETE_IDE_REPOSITORY=NO
+```
+
+**Read this before drawing any conclusion from the file list.** These 15 files
+are a *curated extraction*, not the IDE repository. They do not build as a
+project, they are not the authoritative copy, and their presence here implies
+nothing about completeness. The canonical source is
+[`ItsMehRAWRXD/RawrXD`](https://github.com/ItsMehRAWRXD/RawrXD) branch
+`beacon-residency-001`, where the same content is committed with full history.
+
+The purpose is separation of concerns: IDE work should not be buried inside a
+1.9 GB scrape archive, and a reader who finds it here should be told
+immediately that this is a salvage drawer rather than a home.
+
 ## Why this repository exists
 
 Three IDE-flavoured repositories already existed on this account:
